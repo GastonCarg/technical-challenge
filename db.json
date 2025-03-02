@@ -1,0 +1,264 @@
+{
+  "products": [
+    {
+      "id": "PROD12345",
+      "sku": "PROD12345",
+      "name": "Smartphone X",
+      "description": "A high-end smartphone with advanced features.",
+      "image": "https://mock.server.com/images/prod12345.jpg",
+      "category": {
+        "id": "CAT001",
+        "name": "Electronics"
+      },
+      "brand": "TechBrand",
+      "price": 699.99,
+      "stock": 50,
+      "specifications": [
+        {
+          "name": "Screen Size",
+          "value": "6.5 inches"
+        },
+        {
+          "name": "Battery Life",
+          "value": "24 hours"
+        },
+        {
+          "name": "Storage",
+          "value": "128GB"
+        }
+      ]
+    },
+    {
+      "id": "PROD67890",
+      "sku": "PROD67890",
+      "name": "Wireless Headphones",
+      "description": "Noise-canceling over-ear headphones with Bluetooth connectivity.",
+      "image": "https://mock.server.com/images/prod67890.jpg",
+      "category": {
+        "id": "CAT002",
+        "name": "Accessories"
+      },
+      "brand": "SoundTech",
+      "price": 199.99,
+      "stock": 120,
+      "specifications": [
+        {
+          "name": "Battery Life",
+          "value": "30 hours"
+        },
+        {
+          "name": "Connectivity",
+          "value": "Bluetooth 5.0"
+        }
+      ]
+    },
+    {
+      "id": "PROD00001",
+      "sku": "PROD00001",
+      "name": "Smartphone X1",
+      "description": "A high-end smartphone with advanced features.",
+      "image": "https://mock.server.com/images/prod00001.jpg",
+      "category": { "id": "CAT001", "name": "Electronics" },
+      "brand": "TechBrand",
+      "price": 699.99,
+      "stock": 50,
+      "specifications": [
+        { "name": "Screen Size", "value": "6.5 inches" },
+        { "name": "Battery Life", "value": "24 hours" },
+        { "name": "Storage", "value": "128GB" }
+      ]
+    },
+    {
+      "id": "PROD00002",
+      "sku": "PROD00002",
+      "name": "Smartphone Y2",
+      "description": "A flagship smartphone with cutting-edge technology.",
+      "image": "https://mock.server.com/images/prod00002.jpg",
+      "category": { "id": "CAT001", "name": "Electronics" },
+      "brand": "TechBrand",
+      "price": 799.99,
+      "stock": 40,
+      "specifications": [
+        { "name": "Screen Size", "value": "6.7 inches" },
+        { "name": "Battery Life", "value": "30 hours" },
+        { "name": "Storage", "value": "256GB" }
+      ]
+    },
+    {
+      "id": "PROD00003",
+      "sku": "PROD00003",
+      "name": "Smartphone Z3",
+      "description": "A compact smartphone with powerful performance.",
+      "image": "https://mock.server.com/images/prod00003.jpg",
+      "category": { "id": "CAT001", "name": "Electronics" },
+      "brand": "TechBrand",
+      "price": 599.99,
+      "stock": 70,
+      "specifications": [
+        { "name": "Screen Size", "value": "6.1 inches" },
+        { "name": "Battery Life", "value": "22 hours" },
+        { "name": "Storage", "value": "128GB" }
+      ]
+    },
+    {
+      "id": "PROD00004",
+      "sku": "PROD00004",
+      "name": "Smartphone Ultra 5G",
+      "description": "A premium smartphone with 5G connectivity and AI camera.",
+      "image": "https://mock.server.com/images/prod00004.jpg",
+      "category": { "id": "CAT001", "name": "Electronics" },
+      "brand": "TechBrand",
+      "price": 999.99,
+      "stock": 30,
+      "specifications": [
+        { "name": "Screen Size", "value": "6.8 inches" },
+        { "name": "Battery Life", "value": "35 hours" },
+        { "name": "Storage", "value": "512GB" }
+      ]
+    },
+    {
+      "id": "PROD00005",
+      "sku": "PROD00005",
+      "name": "Smartphone 5G",
+      "description": "A premium smartphone with 5G connectivity and AI camera.",
+      "image": "https://mock.server.com/images/prod00004.jpg",
+      "category": { "id": "CAT001", "name": "Electronics" },
+      "brand": "TechBrand",
+      "price": 999.99,
+      "stock": 30,
+      "specifications": [
+        { "name": "Screen Size", "value": "6.8 inches" },
+        { "name": "Battery Life", "value": "35 hours" },
+        { "name": "Storage", "value": "512GB" }
+      ]
+    },
+    {
+      "id": "PROD00006",
+      "sku": "PROD00006",
+      "name": "Smartphone 455 5G",
+      "description": "A premium smartphone with 5G connectivity and AI camera.",
+      "image": "https://mock.server.com/images/prod00004.jpg",
+      "category": { "id": "CAT001", "name": "Electronics" },
+      "brand": "TechBrand",
+      "price": 999.99,
+      "stock": 30,
+      "specifications": [
+        { "name": "Screen Size", "value": "6.8 inches" },
+        { "name": "Battery Life", "value": "35 hours" },
+        { "name": "Storage", "value": "512GB" }
+      ]
+    },
+    {
+      "id": "PROD00007",
+      "sku": "PROD00007",
+      "name": "Smartphone Rt",
+      "description": "A premium smartphone with 5G connectivity and AI camera.",
+      "image": "https://mock.server.com/images/prod00004.jpg",
+      "category": { "id": "CAT001", "name": "Electronics" },
+      "brand": "TechBrand",
+      "price": 999.99,
+      "stock": 30,
+      "specifications": [
+        { "name": "Screen Size", "value": "6.8 inches" },
+        { "name": "Battery Life", "value": "35 hours" },
+        { "name": "Storage", "value": "512GB" }
+      ]
+    },
+    {
+      "id": "PROD00008",
+      "sku": "PROD00008",
+      "name": "Smartphone Samsung A02",
+      "description": "A premium smartphone with 5G connectivity and AI camera.",
+      "image": "https://mock.server.com/images/prod00004.jpg",
+      "category": { "id": "CAT001", "name": "Electronics" },
+      "brand": "TechBrand",
+      "price": 999.99,
+      "stock": 30,
+      "specifications": [
+        { "name": "Screen Size", "value": "6.8 inches" },
+        { "name": "Battery Life", "value": "35 hours" },
+        { "name": "Storage", "value": "512GB" }
+      ]
+    },
+    {
+      "id": "PROD00009",
+      "sku": "PROD00009",
+      "name": "Smartphone GG",
+      "description": "A premium smartphone with 5G connectivity and AI camera.",
+      "image": "https://mock.server.com/images/prod00004.jpg",
+      "category": { "id": "CAT001", "name": "Electronics" },
+      "brand": "TechBrand",
+      "price": 999.99,
+      "stock": 30,
+      "specifications": [
+        { "name": "Screen Size", "value": "6.8 inches" },
+        { "name": "Battery Life", "value": "35 hours" },
+        { "name": "Storage", "value": "512GB" }
+      ]
+    },
+    {
+      "id": "PROD000010",
+      "sku": "PROD000010",
+      "name": "Smartphone Ultra 5G 1918",
+      "description": "A premium smartphone with 5G connectivity and AI camera.",
+      "image": "https://mock.server.com/images/prod00004.jpg",
+      "category": { "id": "CAT001", "name": "Electronics" },
+      "brand": "TechBrand",
+      "price": 999.99,
+      "stock": 30,
+      "specifications": [
+        { "name": "Screen Size", "value": "6.8 inches" },
+        { "name": "Battery Life", "value": "35 hours" },
+        { "name": "Storage", "value": "512GB" }
+      ]
+    },
+    {
+      "id": "PROD000011",
+      "sku": "PROD000011",
+      "name": "Smartphone Ultra 5G x28",
+      "description": "A premium smartphone with 5G connectivity and AI camera.",
+      "image": "https://mock.server.com/images/prod00004.jpg",
+      "category": { "id": "CAT001", "name": "Electronics" },
+      "brand": "TechBrand",
+      "price": 999.99,
+      "stock": 30,
+      "specifications": [
+        { "name": "Screen Size", "value": "6.8 inches" },
+        { "name": "Battery Life", "value": "35 hours" },
+        { "name": "Storage", "value": "512GB" }
+      ]
+    },
+    {
+      "id": "PROD000012",
+      "sku": "PROD000012",
+      "name": "Smartphone Ultra 2d",
+      "description": "A premium smartphone with 5G connectivity and AI camera.",
+      "image": "https://mock.server.com/images/prod00004.jpg",
+      "category": { "id": "CAT001", "name": "Electronics" },
+      "brand": "TechBrand",
+      "price": 999.99,
+      "stock": 30,
+      "specifications": [
+        { "name": "Screen Size", "value": "6.8 inches" },
+        { "name": "Battery Life", "value": "35 hours" },
+        { "name": "Storage", "value": "512GB" }
+      ]
+    },
+    {
+      "id": "PROD000013",
+      "sku": "PROD000013",
+      "name": "Smartphone G",
+      "description": "A premium smartphone with 5G connectivity and AI camera.",
+      "image": "https://mock.server.com/images/prod00004.jpg",
+      "category": { "id": "CAT001", "name": "Electronics" },
+      "brand": "TechBrand",
+      "price": 999.99,
+      "stock": 30,
+      "specifications": [
+        { "name": "Screen Size", "value": "6.8 inches" },
+        { "name": "Battery Life", "value": "35 hours" },
+        { "name": "Storage", "value": "512GB" }
+      ]
+    }
+  ]
+}
