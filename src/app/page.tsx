@@ -6,6 +6,7 @@ import InfiniteScroll from "react-infinite-scroll-component";
 import { ProductsResponse } from "@/lib/types";
 import { getProducts } from "@/api/products";
 import Product from "@/app/products/products";
+import { Loading, Error } from "@/app/components";
 
 const Home = () => {
   const [search, setSearch] = useState("");
@@ -17,7 +18,7 @@ const Home = () => {
       queryKey: ["products", "infinite"],
       queryFn: ({ pageParam = 1 }) =>
         getProducts({
-          page: Number(pageParam)
+          page: Number(pageParam),
         }),
       initialPageParam: 1,
       getNextPageParam: (nextPage) => nextPage.next ?? undefined,
@@ -41,19 +42,23 @@ const Home = () => {
       )
     : products;
 
-  if (status === "pending") return <div>Loading...</div>;
-  if (error) return <div>Error: {error.message}</div>;
+  if (status === "pending") return <Loading />;
+  if (error) return <Error error={error} />;
 
   return (
     <>
-      <header className="flex justify-center items-center w-full">
-        <input
-          type="search"
-          placeholder="Buscar producto"
-          className="my-4 py-2 px-2 bg-white text-black rounded-lg w-100"
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-        />
+      <header className="py-4 px-6">
+        <div className="max-w-3xl mx-auto">
+          <div className="relative">
+            <input
+              type="search"
+              placeholder="Buscar producto"
+              className="w-full py-3 pl-12 pr-4 text-gray-700 bg-gray-100 rounded-full outline-none focus:bg-white focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all duration-300"
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+            />
+          </div>
+        </div>
       </header>
       {isSearching && <div className="text-center my-4">Buscando...</div>}
 
@@ -62,7 +67,8 @@ const Home = () => {
           dataLength={filteredProducts.length}
           next={fetchNextPage}
           hasMore={!!hasNextPage && !debouncedSearch}
-          loader={<h4>Loading...</h4>}
+          loader={<Loading className="items-start" />}
+          className="max-w-6xl mx-auto pb-12"
         >
           <section className="grid grid-cols-3 gap-12">
             {filteredProducts.map((product) => (
@@ -71,7 +77,11 @@ const Home = () => {
           </section>
         </InfiniteScroll>
       )}
-      {!isSearching && !filteredProducts.length && <div>No hay resultados</div>}
+      {!isSearching && !filteredProducts.length && (
+        <div className="flex justify-center align-center">
+          No hay resultados
+        </div>
+      )}
     </>
   );
 };
