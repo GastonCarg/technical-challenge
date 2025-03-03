@@ -21,3 +21,14 @@ export interface ISpecification {
   value: string;
 }
 
+export interface ProductsResponse {
+  data: IProduct[];
+  page: number;
+  totalPages: number;
+  first: number;
+  prev: number | null;
+  next: number;
+  last: number;
+  pages: number;
+  items: number;
+}

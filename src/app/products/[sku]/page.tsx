@@ -3,9 +3,9 @@
 import { useParams } from "next/navigation";
 
 const ProductDetail = () => {
-  const params = useParams();
+  const { sku } = useParams();
 
-  return <div>Product Detail del sku {params.sku}</div>;
+  return <div>Product Detail del sku {sku}</div>;
 };
 
 export default ProductDetail;

@@ -247,7 +247,7 @@
     {
       "id": "PROD000013",
       "sku": "PROD000013",
-      "name": "Smartphone G",
+      "name": "Wireless Headphones 2",
       "description": "A premium smartphone with 5G connectivity and AI camera.",
       "image": "https://mock.server.com/images/prod00004.jpg",
       "category": { "id": "CAT001", "name": "Electronics" },
