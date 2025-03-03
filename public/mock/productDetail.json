@@ -1,0 +1,28 @@
+{
+  "id": "PROD12345",
+  "sku": "PROD12345",
+  "name": "Smartphone X",
+  "description": "A high-end smartphone with advanced features.",
+  "image": "https://m.media-amazon.com/images/I/310LAs8L+uL._SL500_.jpg",
+  "category": {
+    "id": "CAT001",
+    "name": "Electronics"
+  },
+  "brand": "TechBrand",
+  "price": 699.99,
+  "stock": 50,
+  "specifications": [
+    {
+      "name": "Screen Size",
+      "value": "6.5 inches"
+    },
+    {
+      "name": "Battery Life",
+      "value": "24 hours"
+    },
+    {
+      "name": "Storage",
+      "value": "128GB"
+    }
+  ]
+}

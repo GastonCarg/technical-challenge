@@ -45,6 +45,8 @@ const Home = () => {
   if (status === "pending") return <Loading />;
   if (error) return <Error error={error} />;
 
+  console.log({ data, filteredProducts, products });
+
   return (
     <>
       <header className="py-4 px-6">
@@ -60,7 +62,7 @@ const Home = () => {
           </div>
         </div>
       </header>
-      {isSearching && <div className="text-center my-4">Buscando...</div>}
+      {isSearching && <Loading />}
 
       {!isSearching && (
         <InfiniteScroll

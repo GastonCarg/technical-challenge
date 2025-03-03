@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Proyecto desarrollado como desafío técnico
 
-## Getting Started
+El siguiente proyecto simula solo una parte de un E-commerce, al ingresar a la primer pantalla, se mostrará algunos productos con información necesaria para incentivar al usuario a ver el detalle de los productos ofrecidos. En esta misma pantalla se podrá buscar mediante un campo de filtro por el nombre o el SKU del producto. A su vez podrá scrollear hacia abajo, teniendo la posiblidad de obtener más productos, mediante un scroll infinito el cual irá mostrando de a 10 productos a la vez, por cada página que se vaya cargando. Luego, desde el botón "Ver detalles" se mostrará una nueva pantalla donde se mostrarán más detalles del producto que desea ver.
 
-First, run the development server:
+La finalidad de este proyecto es la de demostrar mis conocimientos.
+
+## Deploy
+
+El proyecto está deployado en Vercel, en la siguiente url
+
+[Vercel]()
+
+## Proceso de instalación
+
+Clonamos el repositorio
+
+```bash
+git clone https://github.com/GastonCarg/technical-challenge.git
+```
+
+Nos desplazamos a la carpeta del proyecto
+
+```bash
+cd technical-challenge
+```
+
+Instalamos las librerías necesarias para levantar el proyecto
+
+```bash
+npm install
+```
+
+Iniciamos el proyecto
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abrir [http://localhost:3000](http://localhost:3000) con un navegador web y podrá ver el resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Librerías y/o herramientas utilizadas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Next.js v15.2.0
+2. Tanstack/react-query v5.66.11
+3. React-infinite-scroll-component v6.1.0
+4. Tailwindcss v4
+5. Eslint v9,
+6. Eslint/eslintrc v3
+7. Typescript v5
+8. Prettier 3.5.2
+9. Eslint-config-prettier v10.0.2
+10. Eslint-config-next v15.2.0
 
-## Learn More
+## Herramientas y/o librerías que hubiese utilizado
 
-To learn more about Next.js, take a look at the following resources:
+Además de las librerías y/o herramientas que utilicé, hubiese utilizado estas herramientas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Jest - Lo hubiese utilizado para probar la SPA de la forma en la que puede interactuar un usuario, obteniendo los resultados esperados
+2. i18n - Lo hubiese utilizado para manejar el idioma de los textos, dependiendo de dónde sea el usuario.
