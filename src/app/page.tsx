@@ -1,25 +1,11 @@
 "use client";
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import { useInfiniteQuery } from "@tanstack/react-query";
 import InfiniteScroll from "react-infinite-scroll-component";
 
-import { IProduct, ProductsResponse } from "@/lib/types";
+import { ProductsResponse } from "@/lib/types";
 import { getProducts } from "@/api/products";
-
-const Product = ({ product }: { product: IProduct }) => {
-  const { name, category, brand, price, sku } = product;
-
-  return (
-    <span className="bg-red-500 p-4 rounded-lg">
-      <h2>{name}</h2>
-      <h5>{brand}</h5>
-      <h6>{category.name}</h6>
-      <h4>$ {price}</h4>
-      <Link href={`/products/${sku}`}>Ver detalle</Link>
-    </span>
-  );
-};
+import Product from "@/app/products/products";
 
 const Home = () => {
   const [search, setSearch] = useState("");
