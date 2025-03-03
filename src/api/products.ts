@@ -8,7 +8,9 @@ export const getProducts = async ({ page }: { page?: number | undefined; }): Pro
     const queryParams = new URLSearchParams();
     if (page) queryParams.append("_page", page.toString());
 
-    const url = `${PRODUCTS_URL}?${queryParams.toString()}`;
+    let url = '';
+    if (process.env.NODE_ENV === 'test') url = `${PRODUCTS_URL}?${queryParams.toString()}`;
+    else url = "/mock/products.json";
     const response = await fetch(url);
 
     if (!response.ok) {
@@ -25,7 +27,10 @@ export const getProducts = async ({ page }: { page?: number | undefined; }): Pro
 export const getProductBySku = async (sku: string): Promise<IProduct> => {
   try {
     await delay();
-    const url = `${PRODUCTS_URL}/${sku}`;
+    let url = '';
+    if (process.env.NODE_ENV === 'test') url = `${PRODUCTS_URL}/${sku}`;
+    else url = "/mock/productDetail.json";
+
     const response = await fetch(url);
 
     let error = "No se pudo obtener el producto";

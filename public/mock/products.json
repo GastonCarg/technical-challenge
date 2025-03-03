@@ -1,0 +1,264 @@
+{
+  "data": [
+    {
+      "id": "PROD12345",
+      "sku": "PROD12345",
+      "name": "Smartphone X",
+      "description": "A high-end smartphone with advanced features.",
+      "image": "https://m.media-amazon.com/images/I/310LAs8L+uL._SL500_.jpg",
+      "category": {
+        "id": "CAT001",
+        "name": "Electronics"
+      },
+      "brand": "TechBrand",
+      "price": 699.99,
+      "stock": 50,
+      "specifications": [
+        {
+          "name": "Screen Size",
+          "value": "6.5 inches"
+        },
+        {
+          "name": "Battery Life",
+          "value": "24 hours"
+        },
+        {
+          "name": "Storage",
+          "value": "128GB"
+        }
+      ]
+    },
+    {
+      "id": "PROD67890",
+      "sku": "PROD67890",
+      "name": "Wireless Headphones",
+      "description": "Noise-canceling over-ear headphones with Bluetooth connectivity.",
+      "image": "https://blaupunktaudio.in/cdn/shop/files/bh41-bluetooth-wireless-over-ear-headphone-blue-1-.0.2.jpg?v=1723532548",
+      "category": {
+        "id": "CAT002",
+        "name": "Accessories"
+      },
+      "brand": "SoundTech",
+      "price": 199.99,
+      "stock": 120,
+      "specifications": [
+        {
+          "name": "Battery Life",
+          "value": "30 hours"
+        },
+        {
+          "name": "Connectivity",
+          "value": "Bluetooth 5.0"
+        }
+      ]
+    },
+    {
+      "id": "PROD00001",
+      "sku": "PROD00001",
+      "name": "Smartphone X1",
+      "description": "A high-end smartphone with advanced features.",
+      "image": "https://stylewatch.vtexassets.com/arquivos/ids/240775/Smartphone_Motorola_TE0007_01.jpg?v=638319416298200000",
+      "category": { "id": "CAT001", "name": "Electronics" },
+      "brand": "TechBrand",
+      "price": 699.99,
+      "stock": 50,
+      "specifications": [
+        { "name": "Screen Size", "value": "6.5 inches" },
+        { "name": "Battery Life", "value": "24 hours" },
+        { "name": "Storage", "value": "128GB" }
+      ]
+    },
+    {
+      "id": "PROD00002",
+      "sku": "PROD00002",
+      "name": "Smartphone Y2",
+      "description": "A flagship smartphone with cutting-edge technology.",
+      "image": "https://images-cdn.ubuy.co.in/634d031dba8fe623b47893cc-smart-phone-android-8-1-smartphone-hd.jpg",
+      "category": { "id": "CAT001", "name": "Electronics" },
+      "brand": "TechBrand",
+      "price": 799.99,
+      "stock": 40,
+      "specifications": [
+        { "name": "Screen Size", "value": "6.7 inches" },
+        { "name": "Battery Life", "value": "30 hours" },
+        { "name": "Storage", "value": "256GB" }
+      ]
+    },
+    {
+      "id": "PROD00003",
+      "sku": "PROD00003",
+      "name": "Smartphone Z3",
+      "description": "A compact smartphone with powerful performance.",
+      "image": "https://i5.walmartimages.com/asr/2b91677f-410c-404c-b99b-a759156ef78f.85105897839a928172ec1d542a4fb3d8.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "category": { "id": "CAT001", "name": "Electronics" },
+      "brand": "TechBrand",
+      "price": 560.99,
+      "stock": 70,
+      "specifications": [
+        { "name": "Screen Size", "value": "6.1 inches" },
+        { "name": "Battery Life", "value": "22 hours" },
+        { "name": "Storage", "value": "128GB" }
+      ]
+    },
+    {
+      "id": "PROD00004",
+      "sku": "PROD00004",
+      "name": "Smartphone Ultra 5G",
+      "description": "A premium smartphone with 5G connectivity and AI camera.",
+      "image": "https://img.freepik.com/vector-gratis/pantalla-realista-smartphone-diferentes-aplicaciones_52683-30241.jpg?semt=ais_hybrid",
+      "category": { "id": "CAT001", "name": "Electronics" },
+      "brand": "TechBrand",
+      "price": 919.99,
+      "stock": 30,
+      "specifications": [
+        { "name": "Screen Size", "value": "6.8 inches" },
+        { "name": "Battery Life", "value": "35 hours" },
+        { "name": "Storage", "value": "512GB" }
+      ]
+    },
+    {
+      "id": "PROD00005",
+      "sku": "PROD00005",
+      "name": "Smartphone 5G",
+      "description": "A premium smartphone with 5G connectivity and AI camera.",
+      "image": "https://www.unihertz.com/cdn/shop/products/golden-eye-5g-slim-rugged-camping-light-smartphone-for-explorersunihertz-264872.jpg?v=1698816690&width=1000",
+      "category": { "id": "CAT001", "name": "Electronics" },
+      "brand": "TechBrand",
+      "price": 629.99,
+      "stock": 30,
+      "specifications": [
+        { "name": "Screen Size", "value": "6.8 inches" },
+        { "name": "Battery Life", "value": "35 hours" },
+        { "name": "Storage", "value": "512GB" }
+      ]
+    },
+    {
+      "id": "PROD00006",
+      "sku": "PROD00006",
+      "name": "Smartphone 455 5G",
+      "description": "A premium smartphone with 5G connectivity and AI camera.",
+      "image": "https://www.boxesonline.pe/wp-content/uploads/2018/05/Smartphone-X-seri-02.jpg",
+      "category": { "id": "CAT001", "name": "Electronics" },
+      "brand": "TechBrand",
+      "price": 399.99,
+      "stock": 30,
+      "specifications": [
+        { "name": "Screen Size", "value": "6.8 inches" },
+        { "name": "Battery Life", "value": "35 hours" },
+        { "name": "Storage", "value": "512GB" }
+      ]
+    },
+    {
+      "id": "PROD00007",
+      "sku": "PROD00007",
+      "name": "Smartphone Rt",
+      "description": "A premium smartphone with 5G connectivity and AI camera.",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/ar/sm-a556elbparo/gallery/ar-galaxy-a55-5g-sm-a556-sm-a556elbparo-thumb-544072502?$264_264_PNG$",
+      "category": { "id": "CAT001", "name": "Electronics" },
+      "brand": "TechBrand",
+      "price": 259.99,
+      "stock": 30,
+      "specifications": [
+        { "name": "Screen Size", "value": "6.8 inches" },
+        { "name": "Battery Life", "value": "35 hours" },
+        { "name": "Storage", "value": "512GB" }
+      ]
+    },
+    {
+      "id": "PROD00008",
+      "sku": "PROD00008",
+      "name": "Smartphone Samsung A02",
+      "description": "A premium smartphone with 5G connectivity and AI camera.",
+      "image": "https://comprasmartphone.com/_next/image?url=https%3A%2F%2Fstorage.comprasmartphone.com%2Fsmartphones%2Fxiaomi-15.png&w=640&q=75",
+      "category": { "id": "CAT001", "name": "Electronics" },
+      "brand": "TechBrand",
+      "price": 559.87,
+      "stock": 30,
+      "specifications": [
+        { "name": "Screen Size", "value": "6.8 inches" },
+        { "name": "Battery Life", "value": "35 hours" },
+        { "name": "Storage", "value": "512GB" }
+      ]
+    },
+    {
+      "id": "PROD00009",
+      "sku": "PROD00009",
+      "name": "Smartphone GG",
+      "description": "A premium smartphone with 5G connectivity and AI camera.",
+      "image": "https://images.fravega.com/f500/f8c1d78ee2bfbb0966d10fa9b8ef27f0.jpg",
+      "category": { "id": "CAT001", "name": "Electronics" },
+      "brand": "TechBrand",
+      "price": 1099.99,
+      "stock": 30,
+      "specifications": [
+        { "name": "Screen Size", "value": "6.8 inches" },
+        { "name": "Battery Life", "value": "35 hours" },
+        { "name": "Storage", "value": "512GB" }
+      ]
+    },
+    {
+      "id": "PROD000010",
+      "sku": "PROD000010",
+      "name": "Smartphone Ultra 5G 1918",
+      "description": "A premium smartphone with 5G connectivity and AI camera.",
+      "image": "https://cdn.billowshop.com/9ef84dda-32dd-4016-7da3-1c0a824fffb4/img/Producto/de02bee1-db5e-11d8-71d3-b6fc3ef98d4f/Galaxy-A15-color-azul-66e4a33200a85-O.png",
+      "category": { "id": "CAT001", "name": "Electronics" },
+      "brand": "TechBrand",
+      "price": 799.99,
+      "stock": 30,
+      "specifications": [
+        { "name": "Screen Size", "value": "6.8 inches" },
+        { "name": "Battery Life", "value": "35 hours" },
+        { "name": "Storage", "value": "512GB" }
+      ]
+    },
+    {
+      "id": "PROD000011",
+      "sku": "PROD000011",
+      "name": "Smartphone Ultra 5G x28",
+      "description": "A premium smartphone with 5G connectivity and AI camera.",
+      "image": "https://image.made-in-china.com/202f0j00pTVCuaJPCBcd/Hot-Sales-X500-6-5-Inch-Android-Smartphone-3GB-RAM-32GB-ROM-Android-10-4G-Quad-Mobile-Phone.webp",
+      "category": { "id": "CAT001", "name": "Electronics" },
+      "brand": "TechBrand",
+      "price": 187.0,
+      "stock": 30,
+      "specifications": [
+        { "name": "Screen Size", "value": "6.8 inches" },
+        { "name": "Battery Life", "value": "35 hours" },
+        { "name": "Storage", "value": "512GB" }
+      ]
+    },
+    {
+      "id": "PROD000012",
+      "sku": "PROD000012",
+      "name": "Smartphone Ultra 2d",
+      "description": "A premium smartphone with 5G connectivity and AI camera.",
+      "image": "https://opsg-img-cdn-gl.heytapimg.com/epb/202412/19/AceLeaXtntKw1AZf.png",
+      "category": { "id": "CAT001", "name": "Electronics" },
+      "brand": "TechBrand",
+      "price": 167.99,
+      "stock": 30,
+      "specifications": [
+        { "name": "Screen Size", "value": "6.8 inches" },
+        { "name": "Battery Life", "value": "35 hours" },
+        { "name": "Storage", "value": "512GB" }
+      ]
+    },
+    {
+      "id": "PROD000013",
+      "sku": "PROD000013",
+      "name": "Wireless Headphones 2",
+      "description": "A premium smartphone with 5G connectivity and AI camera.",
+      "image": "https://www.jbl.com.ar/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwb810b873/01.JBL_Tune%20520BT_Product%20Image_Hero_Blue.png",
+      "category": { "id": "CAT001", "name": "Electronics" },
+      "brand": "TechBrand",
+      "price": 99.47,
+      "stock": 30,
+      "specifications": [
+        { "name": "Screen Size", "value": "6.8 inches" },
+        { "name": "Battery Life", "value": "35 hours" },
+        { "name": "Storage", "value": "512GB" }
+      ]
+    }
+  ]
+}
