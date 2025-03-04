@@ -1,15 +1,15 @@
-"use client";
+'use client';
 
-import { useParams } from "next/navigation";
-import Link from "next/link";
-import { useProductDetail } from "@/hooks/useProductDetail";
-import { Loading, Error } from "@/app/components";
+import { useParams } from 'next/navigation';
+import Link from 'next/link';
+import { useProductDetail } from '@/hooks/useProductDetail';
+import { Loading, Error } from '@/app/components';
 
 const ProductDetail = () => {
   const params = useParams();
 
   const sku = Array.isArray(params.sku) ? params.sku[0] : params.sku;
-  const { product, loading, error } = useProductDetail(sku || "");
+  const { product, loading, error } = useProductDetail(sku || '');
 
   if (loading) return <Loading />;
   if (error) return <Error error={error} />;
@@ -17,7 +17,7 @@ const ProductDetail = () => {
   return (
     <>
       <header className="flex items-center w-full text-black my-6 text-blue-600 hover:underline">
-        <Link href={"/"}>← Volver a productos</Link>
+        <Link href={'/'}>← Volver a productos</Link>
       </header>
       <div className="p-6 grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
         <section className="flex justify-center items-center">

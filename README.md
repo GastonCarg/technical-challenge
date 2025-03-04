@@ -1,59 +1,59 @@
-# Proyecto desarrollado como desafío técnico
+# PinApp technical challenge
+The main purpose of this project is to demonstrate my knowledge, where I focus on covering the requirements given by PinApp.
 
-El siguiente proyecto simula solo una parte de un E-commerce, al ingresar a la primer pantalla, se mostrará algunos productos con información necesaria para incentivar al usuario a ver el detalle de los productos ofrecidos. En esta misma pantalla se podrá buscar mediante un campo de filtro por el nombre o el SKU del producto. A su vez podrá scrollear hacia abajo, teniendo la posiblidad de obtener más productos, mediante un scroll infinito el cual irá mostrando de a 10 productos a la vez, por cada página que se vaya cargando. Luego, desde el botón "Ver detalles" se mostrará una nueva pantalla donde se mostrarán más detalles del producto que desea ver.
+NOTE: The following project simulates only a part of an E-commerce platform.
+Upon entering the first screen, some products will be displayed with the necessary information to encourage the user to view the details of the offered products. On this same screen, users can search using a filter field by product name or SKU. Additionally, they can scroll down to load more products using infinite scrolling, which will display 10 products at a time per loaded page. Then, by clicking the "View details" button, a new screen will appear, showing more details about the selected product.
 
-La finalidad de este proyecto es la de demostrar mis conocimientos.
+## How to access to the web?
+The project is deployed on Vercel, and you can access it by clicking in the next link:
+[Vercel](https://pinapp-technical-challenge.vercel.app/)
 
-## Deploy
+## Prerequisites
+Ensure that you have installed Node +v20.11.1.
+[Check the documentation for downloading and installing it](https://nodejs.org/es)
 
-El proyecto está deployado en Vercel, en la siguiente url
-
-[Vercel]()
-
-## Proceso de instalación
-
-Clonamos el repositorio
+## Installation process
+Clone the repository
 
 ```bash
 git clone https://github.com/GastonCarg/technical-challenge.git
 ```
 
-Nos desplazamos a la carpeta del proyecto
+Navigate to the project folder:
 
 ```bash
 cd technical-challenge
 ```
 
-Instalamos las librerías necesarias para levantar el proyecto
+Install the necessary libraries to run the project:
 
 ```bash
 npm install
 ```
 
-Iniciamos el proyecto
+Start the project:
 
 ```bash
 npm run dev
 ```
 
-Abrir [http://localhost:3000](http://localhost:3000) con un navegador web y podrá ver el resultado.
+Open [http://localhost:3000](http://localhost:3000) in a web browser to see the web running on your local machine.
 
-## Librerías y/o herramientas utilizadas
+## Libraries and tools used
+This project was developed using Next.js and Typescript.
 
-1. Next.js v15.2.0
-2. Tanstack/react-query v5.66.11
-3. React-infinite-scroll-component v6.1.0
-4. Tailwindcss v4
-5. Eslint v9,
-6. Eslint/eslintrc v3
-7. Typescript v5
-8. Prettier 3.5.2
-9. Eslint-config-prettier v10.0.2
-10. Eslint-config-next v15.2.0
+1. Tanstack/react-query: To fetch and send data to the server, using cache strategies.
+2. React-infinite-scroll-component: To have the infinite scrolling behavior in the product list.
+3. Tailwindcss: To style the UI of platform.
+4. Eslint: To check code improvements and get cleaner code like detecting unused variables.
+5. Prettier: To get the code style unified, which will help when multiple developers collaborate on this project.
 
-## Herramientas y/o librerías que hubiese utilizado
+## Tools and libraries I would have used
 
-Además de las librerías y/o herramientas que utilicé, hubiese utilizado estas herramientas
+In addition to the libraries and tools I used, I would have implemented the following tools, but due to time constraints, I didn't:
 
-1. Jest - Lo hubiese utilizado para probar la SPA de la forma en la que puede interactuar un usuario, obteniendo los resultados esperados
-2. i18n - Lo hubiese utilizado para manejar el idioma de los textos, dependiendo de dónde sea el usuario.
+1. `Jest` to test the SPA by simulating user interactions and verifying the expected results.
+2. `i18n` to manage text translations based on the user's settings.
+3. `CI/CD` pipelines to build and deploy the new versions of the application
+4. `eslint` and `prettier` configuration files defines simple rules. They should be modified according to the team specifications.
+
