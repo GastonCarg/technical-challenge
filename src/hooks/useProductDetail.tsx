@@ -1,6 +1,6 @@
-import { IProduct } from "@/lib/types";
-import { getProductBySku } from "@/api/products";
-import { useEffect, useState } from "react";
+import { IProduct } from '@/lib/types';
+import { getProductBySku } from '@/api/products';
+import { useEffect, useState } from 'react';
 
 export const useProductDetail = (sku: string) => {
   const [product, setProduct] = useState<IProduct | null>(null);

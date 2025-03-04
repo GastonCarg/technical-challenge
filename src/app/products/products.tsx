@@ -1,5 +1,5 @@
-import Link from "next/link";
-import type { IProduct } from "@/lib/types";
+import Link from 'next/link';
+import type { IProduct } from '@/lib/types';
 
 const Product = ({ product }: { product: IProduct }) => {
   const { name, category, brand, price, sku, image } = product;
@@ -8,7 +8,11 @@ const Product = ({ product }: { product: IProduct }) => {
     <div className="bg-white shadow-lg rounded-xl overflow-hidden transition-all duration-300 hover:shadow-2xl">
       <div className="relative p-4">
         <div className="aspect-square rounded-lg mb-4 max-h-100 justify-center items-center flex overflow-hidden">
-          <img src={image} alt={name} className="rounded-lg max-h-[-webkit-fill-available]"/>
+          <img
+            src={image}
+            alt={name}
+            className="rounded-lg max-h-[-webkit-fill-available]"
+          />
         </div>
 
         <div className="absolute top-4 left-4 ">

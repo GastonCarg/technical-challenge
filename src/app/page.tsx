@@ -1,21 +1,21 @@
-"use client";
-import { useEffect, useState } from "react";
-import { useInfiniteQuery } from "@tanstack/react-query";
-import InfiniteScroll from "react-infinite-scroll-component";
+'use client';
+import { useEffect, useState } from 'react';
+import { useInfiniteQuery } from '@tanstack/react-query';
+import InfiniteScroll from 'react-infinite-scroll-component';
 
-import { ProductsResponse } from "@/lib/types";
-import { getProducts } from "@/api/products";
-import Product from "@/app/products/products";
-import { Loading, Error } from "@/app/components";
+import { ProductsResponse } from '@/lib/types';
+import { getProducts } from '@/api/products';
+import Product from '@/app/products/products';
+import { Loading, Error } from '@/app/components';
 
 const Home = () => {
-  const [search, setSearch] = useState("");
-  const [debouncedSearch, setDebouncedSearch] = useState("");
+  const [search, setSearch] = useState('');
+  const [debouncedSearch, setDebouncedSearch] = useState('');
   const [isSearching, setIsSearching] = useState(false);
 
   const { data, error, fetchNextPage, status, hasNextPage } =
     useInfiniteQuery<ProductsResponse>({
-      queryKey: ["products", "infinite"],
+      queryKey: ['products', 'infinite'],
       queryFn: ({ pageParam = 1 }) =>
         getProducts({
           page: Number(pageParam),
@@ -38,11 +38,11 @@ const Home = () => {
     ? products.filter(
         (product) =>
           product.name.toLowerCase().includes(debouncedSearch.toLowerCase()) ||
-          product.sku.toLowerCase().includes(debouncedSearch.toLowerCase())
+          product.sku.toLowerCase().includes(debouncedSearch.toLowerCase()),
       )
     : products;
 
-  if (status === "pending") return <Loading />;
+  if (status === 'pending') return <Loading />;
   if (error) return <Error error={error} />;
 
   console.log({ data, filteredProducts, products });

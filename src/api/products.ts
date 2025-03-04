@@ -9,7 +9,7 @@ export const getProducts = async ({ page }: { page?: number | undefined; }): Pro
     if (page) queryParams.append("_page", page.toString());
 
     let url = '';
-    if (process.env.NODE_ENV === 'test') url = `${PRODUCTS_URL}?${queryParams.toString()}`;
+    if (process.env.NODE_ENV === 'development') url = `${PRODUCTS_URL}?${queryParams.toString()}`;
     else url = "/mock/products.json";
     const response = await fetch(url);
 
@@ -28,7 +28,7 @@ export const getProductBySku = async (sku: string): Promise<IProduct> => {
   try {
     await delay();
     let url = '';
-    if (process.env.NODE_ENV === 'test') url = `${PRODUCTS_URL}/${sku}`;
+    if (process.env.NODE_ENV === 'development') url = `${PRODUCTS_URL}/${sku}`;
     else url = "/mock/productDetail.json";
 
     const response = await fetch(url);

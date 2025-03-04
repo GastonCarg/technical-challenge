@@ -6,7 +6,7 @@ Upon entering the first screen, some products will be displayed with the necessa
 
 ## How to access to the web?
 The project is deployed on Vercel, and you can access it by clicking in the next link:
-[Vercel]()
+[Vercel](https://pinapp-technical-challenge.vercel.app/)
 
 ## Prerequisites
 Ensure that you have installed Node +v20.11.1.
